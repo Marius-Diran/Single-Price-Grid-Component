@@ -15,11 +15,11 @@ body{
     border-top-left-radius: 2vh;
     border-top-right-radius: 2vh;
     background-color: hsl(0, 0%, 100%);
-    width: 64%;
+    width: 50%;
     height: 35vh;
     margin-top: 15vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
 }
 
 #main .main1 h3{
@@ -48,8 +48,8 @@ body{
 
 #main-grid{
     display: grid;
-    grid-template-columns: 53.3% 53.3%;
-    margin: 0 20vw;
+    grid-template-columns: 50% 50%;
+    margin: 0 25vw;
 }
 
 #main-grid .grid1{
@@ -103,8 +103,8 @@ body{
 }
 
 #main-grid .grid2{
-    background-color: hsl(179, 66%, 67%);
-    height: 30vh;
+    background-color: hsl(179, 56%, 48%);
+    height: 35vh;
 }
 
 #main-grid .grid2 h4{
@@ -112,4 +112,13 @@ body{
     font-size: 1.3rem;
     padding-top: 4vh;
     padding-left: 3vw;
+}
+
+#main-grid .grid2 .p-1{
+    color: hsla(0, 21%, 88%, 0.887);
+    width: 29vh;
+    font-size: 0.9rem;
+    line-height: 3vh;
+    margin-left: 3vw;
+    margin-top: 3vh;
 }
