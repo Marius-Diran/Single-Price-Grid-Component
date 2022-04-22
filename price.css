@@ -176,6 +176,13 @@ body{
         padding-left: 5vw;
     }
 
+    #main-grid .grid1 button{
+        width: 70vw;
+        height: 9vh;
+        margin: 5vh 8vw;
+        box-shadow: 0vh 1vh 2vw rgba(0, 0, 0);
+    }
+
     #main-grid .grid2{
         display: none;
     }
