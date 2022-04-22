@@ -171,6 +171,11 @@ body{
         padding-left: 5vw;
     }
 
+    #main-grid .grid1 .p-3{
+        margin-top: 0.6vh;
+        padding-left: 5vw;
+    }
+
     #main-grid .grid2{
         display: none;
     }
