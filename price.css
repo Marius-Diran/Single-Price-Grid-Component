@@ -152,9 +152,23 @@ body{
     }
 
     #main-grid .grid1{
+        border-bottom-left-radius: 0vh;
+        position: relative;
+        top: -20vh;
+        left: -25vw;
         width: 86vw;
         height: 70vh;
         margin: 10vh 8vw;
+    }
+
+    #main-grid .grid1 h4{
+        padding-left: 5vw;
+        padding-top: 5vh;
+    }
+
+    #main-grid .grid1 .p-1{
+        padding-top: 4vh;
+        padding-left: 5vw;
     }
 
     #main-grid .grid2{
