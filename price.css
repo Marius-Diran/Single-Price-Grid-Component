@@ -54,7 +54,7 @@ body{
 
 #main-grid .grid1{
     background-color: hsl(179, 62%, 43%);
-    display: inline-block;
+    border-bottom-left-radius: 2vh;
     height: 35vh;
 }
 
@@ -104,6 +104,7 @@ body{
 
 #main-grid .grid2{
     background-color: hsl(179, 56%, 48%);
+    border-bottom-right-radius: 2vh;
     height: 35vh;
 }
 
