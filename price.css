@@ -100,6 +100,7 @@ body{
     font-weight: 700;
     margin-left: 3vw;
     margin-top: 4vh;
+    box-shadow: 0vw 0.5vh 8px rgba(0, 0, 0, 0.5);
 }
 
 #main-grid .grid2{
@@ -116,7 +117,7 @@ body{
 }
 
 #main-grid .grid2 .p-1{
-    color: hsla(0, 21%, 88%, 0.887);
+    color: hsla(0, 21%, 88%, 0.97);
     width: 29vh;
     font-size: 0.9rem;
     line-height: 3vh;
@@ -127,6 +128,10 @@ body{
 /* Screen size of 375px */
 
 @media (max-width: 375px){
+    body{
+        height: 168vh;
+    }
+
     #main .main1{
         border-top-left-radius: 1vh;
         border-top-right-radius: 1vh;
@@ -157,7 +162,7 @@ body{
         top: -20vh;
         left: -25vw;
         width: 86vw;
-        height: 70vh;
+        height: 45vh;
         margin: 10vh 8vw;
     }
 
@@ -180,10 +185,28 @@ body{
         width: 70vw;
         height: 9vh;
         margin: 5vh 8vw;
-        box-shadow: 0vh 1vh 2vw rgba(0, 0, 0);
+        box-shadow: 0vh 0.5vh 8px rgba(0, 0, 0, 0.5);
     }
 
     #main-grid .grid2{
-        display: none;
+        border-bottom-left-radius: 2vh;
+        position: relative;
+        top: 35vh;
+        left: -41.9vw;
+        width: 86.1vw;
+        height: 45vh;
+    }
+
+    #main-grid .grid2 h4{
+        padding-top: 5vh;
+        padding-left: 5vw;
+    }
+
+    #main-grid .grid2 .p-1{
+        width: 47vw;
+        margin-top: 3vh;
+        margin-left: 5vw;
+        line-height: 4vh;
     }
 }
+
