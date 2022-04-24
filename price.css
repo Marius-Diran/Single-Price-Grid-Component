@@ -127,7 +127,7 @@ body{
 
 /* Screen size of 375px */
 
-@media (max-width: 375px){
+/* @media (max-width: 375px){
     body{
         height: 168vh;
     }
@@ -207,11 +207,11 @@ body{
         margin-left: 5vw;
         line-height: 4vh;
     }
-}
+} */
 
 /* Screen size of 425 */
 
-/* @media (max-width: 425px){
+ @media (min-width: 320px) and (max-width: 425px){
     #main .main1{
         width: 80vw;
         height: 56vh;
@@ -283,7 +283,7 @@ body{
         width: 50vw;
         line-height: 4vh;
     }
-} */
+} 
 
 
-/* Sorry, But i'm trying find out how to add two or more media query */
+/* Sorry, But i'm trying find out how to add two or more media query  */
