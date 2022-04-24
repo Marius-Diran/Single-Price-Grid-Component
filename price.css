@@ -210,3 +210,18 @@ body{
     }
 }
 
+/* Screen size of 425 */
+
+@media (max-width: 425px){
+    #main .main1{
+        border: 1px solid red;
+    }
+
+    .grid1{
+        display: none;
+    }
+
+    .grid2{
+        display: none;
+    }
+}
