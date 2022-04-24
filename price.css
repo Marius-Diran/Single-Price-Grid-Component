@@ -235,9 +235,8 @@ body{
     }
 
     #main-grid .grid1{
-        border: 1px solid red;
         width: 80vw;
-        height: 50vh;
+        height: 45vh;
         position: relative;
         top: -10vh;
         left: -15vw;
@@ -261,13 +260,27 @@ body{
     #main-grid .grid1 button{
         width: 70vw;
         height: 9vh;
-        /* position: relative;
-        top: 1vh;
-        left: 4vw; */
         margin: 5vh 5vw;
     }
 
-    .grid2{
-        display: none;
+    #main-grid .grid2{
+        border-bottom-left-radius: 2vh;
+        height: 45vh;
+        width: 80vw;
+        position: relative;
+        top: 35vh;
+        left: -40vw;
+    }
+
+    #main-grid .grid2 h4{
+        padding-top: 5vh;
+        padding-left: 5vw;
+    }
+
+    #main-grid .grid2 .p-1{
+        margin-top: 3vh;
+        margin-left: 5vw;
+        width: 50vw;
+        line-height: 4vh;
     }
 }
