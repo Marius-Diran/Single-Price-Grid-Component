@@ -214,11 +214,29 @@ body{
 
 @media (max-width: 425px){
     #main .main1{
-        border: 1px solid red;
+        width: 80vw;
+        height: 56vh;
+        margin: 10vh 10vw;
+    }
+
+    #main .main1 h3{
+        padding-left: 5vw;
+    }
+
+    #main .main1 .p-1{
+        padding-top: 1vh;
+        padding-left: 5vw;
+    }
+
+    #main .main1 .p-2{
+        margin-top: 3vh;
+        padding-left: 1vw;
+        width: 76vw;
+        line-height: 5vh;
     }
 
     .grid1{
-        display: none;
+        
     }
 
     .grid2{
